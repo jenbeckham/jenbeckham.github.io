@@ -10,6 +10,19 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
  */
+ @import "bourbon";
+ @import "home";
+ @import "users";
+
+ .nav {
+     position: absolute;
+     top: 100px;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     min-width: 800px;
+     text-align: left;
+     height: 20px;
+     padding: 10px 20px;
+ }
